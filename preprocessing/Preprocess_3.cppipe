@@ -1,0 +1,2709 @@
+CellProfiler Pipeline: http://www.cellprofiler.org
+Version:5
+DateRevision:428
+GitHash:
+ModuleCount:159
+HasImagePlaneDetails:False
+
+LoadData:[module_num:1|svn_version:'Unknown'|variable_revision_number:6|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Input data file location:Default Input Folder|/Volumes/T7/PotC2
+    Name of the file:load_data_530_all.csv
+    Load images based on this data?:Yes
+    Base image location:None|
+    Process just a range of rows?:No
+    Rows to process:43,126
+    Group images by metadata?:No
+    Select metadata tags for grouping:
+    Rescale intensities?:Yes
+
+Align:[module_num:2|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the alignment method:Mutual Information
+    Crop mode:Keep size
+    Select the first input image:Cycle01_DAPI
+    Name the first output image:AlignedRed
+    Select the second input image:Cycle02_DAPI
+    Name the second output image:Cycle02_DAPI_Aligned
+    Select the additional image:Cycle02_A488
+    Name the output image:Cycle02_A488_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle02_A568
+    Name the output image:Cycle02_A568_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle02_A647
+    Name the output image:Cycle02_A647_Aligned
+    Select how the alignment is to be applied:Similarly
+
+Align:[module_num:3|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the alignment method:Mutual Information
+    Crop mode:Keep size
+    Select the first input image:Cycle01_DAPI
+    Name the first output image:AlignedRed
+    Select the second input image:Cycle03_DAPI
+    Name the second output image:Cycle03_DAPI_Aligned
+    Select the additional image:Cycle03_A488
+    Name the output image:Cycle03_A488_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle03_A568
+    Name the output image:Cycle03_A568_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle03_A647
+    Name the output image:Cycle03_A647_Aligned
+    Select how the alignment is to be applied:Similarly
+
+Align:[module_num:4|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the alignment method:Mutual Information
+    Crop mode:Keep size
+    Select the first input image:Cycle01_DAPI
+    Name the first output image:AlignedRed
+    Select the second input image:Cycle04_DAPI
+    Name the second output image:Cycle04_DAPI_Aligned
+    Select the additional image:Cycle04_A488
+    Name the output image:Cycle04_A488_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle04_A568
+    Name the output image:Cycle04_A568_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle04_A647
+    Name the output image:Cycle04_A647_Aligned
+    Select how the alignment is to be applied:Similarly
+
+Align:[module_num:5|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the alignment method:Mutual Information
+    Crop mode:Keep size
+    Select the first input image:Cycle01_DAPI
+    Name the first output image:AlignedRed
+    Select the second input image:Cycle05_DAPI
+    Name the second output image:Cycle05_DAPI_Aligned
+    Select the additional image:Cycle05_A488
+    Name the output image:Cycle05_A488_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle05_A568
+    Name the output image:Cycle05_A568_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle05_A647
+    Name the output image:Cycle05_A647_Aligned
+    Select how the alignment is to be applied:Similarly
+
+Align:[module_num:6|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the alignment method:Mutual Information
+    Crop mode:Keep size
+    Select the first input image:Cycle01_DAPI
+    Name the first output image:AlignedRed
+    Select the second input image:Cycle06_DAPI
+    Name the second output image:Cycle06_DAPI_Aligned
+    Select the additional image:Cycle06_A488
+    Name the output image:Cycle06_A488_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle06_A568
+    Name the output image:Cycle06_A568_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle06_A647
+    Name the output image:Cycle06_A647_Aligned
+    Select how the alignment is to be applied:Similarly
+
+Align:[module_num:7|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the alignment method:Mutual Information
+    Crop mode:Keep size
+    Select the first input image:Cycle01_DAPI
+    Name the first output image:AlignedRed
+    Select the second input image:Cycle07_DAPI
+    Name the second output image:Cycle07_DAPI_Aligned
+    Select the additional image:Cycle07_A488
+    Name the output image:Cycle07_A488_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle07_A568
+    Name the output image:Cycle07_A568_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle07_A647
+    Name the output image:Cycle07_A647_Aligned
+    Select how the alignment is to be applied:Similarly
+
+Align:[module_num:8|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the alignment method:Mutual Information
+    Crop mode:Keep size
+    Select the first input image:Cycle01_DAPI
+    Name the first output image:AlignedRed
+    Select the second input image:Cycle08_DAPI
+    Name the second output image:Cycle08_DAPI_Aligned
+    Select the additional image:Cycle08_A488
+    Name the output image:Cycle08_A488_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle08_A568
+    Name the output image:Cycle08_A568_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle08_A647
+    Name the output image:Cycle08_A647_Aligned
+    Select how the alignment is to be applied:Similarly
+
+Align:[module_num:9|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the alignment method:Mutual Information
+    Crop mode:Keep size
+    Select the first input image:Cycle01_DAPI
+    Name the first output image:AlignedRed
+    Select the second input image:Cycle09_DAPI
+    Name the second output image:Cycle09_DAPI_Aligned
+    Select the additional image:Cycle09_A488
+    Name the output image:Cycle09_A488_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle09_A568
+    Name the output image:Cycle09_A568_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle09_A647
+    Name the output image:Cycle09_A647_Aligned
+    Select how the alignment is to be applied:Similarly
+
+Align:[module_num:10|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the alignment method:Mutual Information
+    Crop mode:Keep size
+    Select the first input image:Cycle01_DAPI
+    Name the first output image:AlignedRed
+    Select the second input image:Cycle10_DAPI
+    Name the second output image:Cycle10_DAPI_Aligned
+    Select the additional image:Cycle10_A488
+    Name the output image:Cycle10_A488_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle10_A568
+    Name the output image:Cycle10_A568_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle10_A647
+    Name the output image:Cycle10_A647_Aligned
+    Select how the alignment is to be applied:Similarly
+
+Align:[module_num:11|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the alignment method:Mutual Information
+    Crop mode:Keep size
+    Select the first input image:Cycle01_DAPI
+    Name the first output image:AlignedRed
+    Select the second input image:Cycle11_DAPI
+    Name the second output image:Cycle11_DAPI_Aligned
+    Select the additional image:Cycle11_A488
+    Name the output image:Cycle11_A488_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle11_A568
+    Name the output image:Cycle11_A568_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle11_A647
+    Name the output image:Cycle11_A647_Aligned
+    Select how the alignment is to be applied:Similarly
+
+Align:[module_num:12|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the alignment method:Mutual Information
+    Crop mode:Keep size
+    Select the first input image:Cycle01_DAPI
+    Name the first output image:AlignedRed
+    Select the second input image:Cycle12_DAPI
+    Name the second output image:Cycle12_DAPI_Aligned
+    Select the additional image:Cycle12_A488
+    Name the output image:Cycle12_A488_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle12_A568
+    Name the output image:Cycle12_A568_Aligned
+    Select how the alignment is to be applied:Similarly
+    Select the additional image:Cycle12_A647
+    Name the output image:Cycle12_A647_Aligned
+    Select how the alignment is to be applied:Similarly
+
+MeasureColocalization:[module_num:13|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select images to measure:Cycle01_A488, Cycle01_A568, Cycle01_A647, Cycle02_A488_Aligned, Cycle02_A568_Aligned, Cycle02_A647_Aligned, Cycle03_A488_Aligned, Cycle03_A568_Aligned, Cycle03_A647_Aligned, Cycle04_A488_Aligned, Cycle04_A568_Aligned, Cycle04_A647_Aligned, Cycle05_A488_Aligned, Cycle05_A568_Aligned, Cycle05_A647_Aligned, Cycle06_A488_Aligned, Cycle06_A568_Aligned, Cycle06_A647_Aligned, Cycle07_A488_Aligned, Cycle07_A568_Aligned, Cycle07_A647_Aligned, Cycle08_A488_Aligned, Cycle08_A568_Aligned, Cycle08_A647_Aligned, Cycle09_A488_Aligned, Cycle09_A568_Aligned, Cycle09_A647_Aligned, Cycle10_A488_Aligned, Cycle10_A568_Aligned, Cycle10_A647_Aligned, Cycle11_A488_Aligned, Cycle11_A568_Aligned, Cycle11_A647_Aligned, Cycle12_A488_Aligned, Cycle12_A568_Aligned, Cycle12_A647_Aligned
+    Set threshold as percentage of maximum intensity for the images:15.0
+    Select where to measure correlation:Across entire image
+    Select objects to measure:
+    Run all metrics?:No
+    Calculate correlation and slope metrics?:Yes
+    Calculate the Manders coefficients?:No
+    Calculate the Rank Weighted Colocalization coefficients?:No
+    Calculate the Overlap coefficients?:No
+    Calculate the Manders coefficients using Costes auto threshold?:No
+    Method for Costes thresholding:Faster
+
+Threshold:[module_num:14|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle01_DAPI
+    Name the output image:Threshold_Cycle01
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0.0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.00001
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:15|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle02_DAPI_Aligned
+    Name the output image:Threshold_Cycle02
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0.0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.00001
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:16|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle03_DAPI_Aligned
+    Name the output image:Threshold_Cycle03
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0.0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.00001
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:17|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle04_DAPI_Aligned
+    Name the output image:Threshold_Cycle04
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0.0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.00001
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:18|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle05_DAPI_Aligned
+    Name the output image:Threshold_Cycle05
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0.0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.00001
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:19|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle06_DAPI_Aligned
+    Name the output image:Threshold_Cycle06
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0.0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.00001
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:20|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle07_DAPI_Aligned
+    Name the output image:Threshold_Cycle07
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0.0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.00001
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:21|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle08_DAPI_Aligned
+    Name the output image:Threshold_Cycle08
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0.0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.00001
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:22|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle09_DAPI_Aligned
+    Name the output image:Threshold_Cycle09
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0.0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.00001
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:23|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle10_DAPI_Aligned
+    Name the output image:Threshold_Cycle10
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0.0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.00001
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:24|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle11_DAPI_Aligned
+    Name the output image:Threshold_Cycle11
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0.0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.00001
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:25|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle12_DAPI_Aligned
+    Name the output image:Threshold_Cycle12
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0.0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.00001
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+ImageMath:[module_num:26|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Operation:And
+    Raise the power of the result by:1.0
+    Multiply the result by:1.0
+    Add to result:0.0
+    Set values less than 0 equal to 0?:Yes
+    Set values greater than 1 equal to 1?:Yes
+    Replace invalid values with 0?:Yes
+    Ignore the image masks?:No
+    Name the output image:PresentInAllCycles
+    Image or measurement?:Image
+    Select the first image:Threshold_Cycle01
+    Multiply the first image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the second image:Threshold_Cycle02
+    Multiply the second image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the third image:Threshold_Cycle03
+    Multiply the third image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the fourth image:Threshold_Cycle04
+    Multiply the fourth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the fifth image:Threshold_Cycle05
+    Multiply the fifth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the sixth image:Threshold_Cycle06
+    Multiply the sixth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the seventh image:Threshold_Cycle07
+    Multiply the seventh image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the eighth image:Threshold_Cycle08
+    Multiply the eighth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the ninth image:Threshold_Cycle09
+    Multiply the ninth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the tenth image:Threshold_Cycle10
+    Multiply the tenth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the eleventh image:Threshold_Cycle11
+    Multiply the eleventh image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the twelfth image:Threshold_Cycle12
+    Multiply the twelfth image by:1.0
+    Measurement:
+
+MeasureImageAreaOccupied:[module_num:27|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Measure the area occupied by:Binary Image
+    Select binary images to measure:PresentInAllCycles
+    Select object sets to measure:
+
+ImageMath:[module_num:28|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
+    Operation:Standard Deviation
+    Raise the power of the result by:1.0
+    Multiply the result by:1.0
+    Add to result:0.0
+    Set values less than 0 equal to 0?:Yes
+    Set values greater than 1 equal to 1?:Yes
+    Replace invalid values with 0?:Yes
+    Ignore the image masks?:No
+    Name the output image:StDevOfAll568Cycles
+    Image or measurement?:Image
+    Select the first image:Cycle01_A568
+    Multiply the first image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the second image:Cycle02_A568_Aligned
+    Multiply the second image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the third image:Cycle03_A568_Aligned
+    Multiply the third image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the fourth image:Cycle04_A568_Aligned
+    Multiply the fourth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the fifth image:Cycle05_A568_Aligned
+    Multiply the fifth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the sixth image:Cycle06_A568_Aligned
+    Multiply the sixth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the seventh image:Cycle07_A568_Aligned
+    Multiply the seventh image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the eighth image:Cycle08_A568_Aligned
+    Multiply the eighth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the ninth image:Cycle09_A568_Aligned
+    Multiply the ninth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the tenth image:Cycle10_A568_Aligned
+    Multiply the tenth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the eleventh image:Cycle11_A568_Aligned
+    Multiply the eleventh image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the twelfth image:Cycle12_A568_Aligned
+    Multiply the twelfth image by:1.0
+    Measurement:
+
+ImageMath:[module_num:29|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
+    Operation:Standard Deviation
+    Raise the power of the result by:1.0
+    Multiply the result by:1.0
+    Add to result:0.0
+    Set values less than 0 equal to 0?:Yes
+    Set values greater than 1 equal to 1?:Yes
+    Replace invalid values with 0?:Yes
+    Ignore the image masks?:No
+    Name the output image:StDevOfAll647Cycles
+    Image or measurement?:Image
+    Select the first image:Cycle01_A647
+    Multiply the first image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the second image:Cycle02_A647_Aligned
+    Multiply the second image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the third image:Cycle03_A647_Aligned
+    Multiply the third image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the fourth image:Cycle04_A647_Aligned
+    Multiply the fourth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the fifth image:Cycle05_A647_Aligned
+    Multiply the fifth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the sixth image:Cycle06_A647_Aligned
+    Multiply the sixth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the seventh image:Cycle07_A647_Aligned
+    Multiply the seventh image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the eighth image:Cycle08_A647_Aligned
+    Multiply the eighth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the ninth image:Cycle09_A647_Aligned
+    Multiply the ninth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the tenth image:Cycle10_A647_Aligned
+    Multiply the tenth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the eleventh image:Cycle11_A647_Aligned
+    Multiply the eleventh image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the twelfth image:Cycle12_A647_Aligned
+    Multiply the twelfth image by:1.0
+    Measurement:
+
+ImageMath:[module_num:30|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
+    Operation:Standard Deviation
+    Raise the power of the result by:1.0
+    Multiply the result by:1.0
+    Add to result:0.0
+    Set values less than 0 equal to 0?:Yes
+    Set values greater than 1 equal to 1?:Yes
+    Replace invalid values with 0?:Yes
+    Ignore the image masks?:No
+    Name the output image:StDevOfAll488Cycles
+    Image or measurement?:Image
+    Select the first image:Cycle01_A488
+    Multiply the first image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the second image:Cycle02_A488_Aligned
+    Multiply the second image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the third image:Cycle03_A488_Aligned
+    Multiply the third image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the fourth image:Cycle04_A488_Aligned
+    Multiply the fourth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the fifth image:Cycle05_A488_Aligned
+    Multiply the fifth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the sixth image:Cycle06_A488_Aligned
+    Multiply the sixth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the seventh image:Cycle07_A488_Aligned
+    Multiply the seventh image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the eighth image:Cycle08_A488_Aligned
+    Multiply the eighth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the ninth image:Cycle09_A488_Aligned
+    Multiply the ninth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the tenth image:Cycle10_A488_Aligned
+    Multiply the tenth image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the eleventh image:Cycle11_A488_Aligned
+    Multiply the eleventh image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the twelfth image:Cycle12_A488_Aligned
+    Multiply the twelfth image by:1.0
+    Measurement:
+
+ImageMath:[module_num:31|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
+    Operation:Average
+    Raise the power of the result by:0.5
+    Multiply the result by:1.0
+    Add to result:0.0
+    Set values less than 0 equal to 0?:Yes
+    Set values greater than 1 equal to 1?:Yes
+    Replace invalid values with 0?:Yes
+    Ignore the image masks?:No
+    Name the output image:MeanOfAllStDevs
+    Image or measurement?:Image
+    Select the first image:StDevOfAll647Cycles
+    Multiply the first image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the second image:StDevOfAll568Cycles
+    Multiply the second image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the third image:StDevOfAll488Cycles
+    Multiply the third image by:1.0
+    Measurement:
+
+IdentifyPrimaryObjects:[module_num:32|svn_version:'Unknown'|variable_revision_number:15|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle01_DAPI
+    Name the primary objects to be identified:Debris
+    Typical diameter of objects, in pixel units (Min,Max):10,200
+    Discard objects outside the diameter range?:Yes
+    Discard objects touching the border of the image?:No
+    Method to distinguish clumped objects:Intensity
+    Method to draw dividing lines between clumped objects:Intensity
+    Size of smoothing filter:10
+    Suppress local maxima that are closer than this minimum allowed distance:7.0
+    Speed up by using lower-resolution image to find local maxima?:Yes
+    Fill holes in identified objects?:After both thresholding and declumping
+    Automatically calculate size of smoothing filter for declumping?:Yes
+    Automatically calculate minimum allowed distance between local maxima?:Yes
+    Handling of objects if excessive number of objects identified:Continue
+    Maximum number of objects:500
+    Use advanced settings?:Yes
+    Threshold setting version:12
+    Threshold strategy:Global
+    Thresholding method:Minimum Cross-Entropy
+    Threshold smoothing scale:1.3488
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.1,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+ExpandOrShrinkObjects:[module_num:33|svn_version:'Unknown'|variable_revision_number:2|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input objects:Debris
+    Name the output objects:DebrisPlus
+    Select the operation:Expand objects by a specified number of pixels
+    Number of pixels by which to expand or shrink:6
+    Fill holes in objects so that all objects shrink to a single point?:No
+    Expand or shrink measurement:None
+
+MaskImage:[module_num:34|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle01_DAPI
+    Name the output image:MaskedDAPI
+    Use objects or an image as a mask?:Objects
+    Select object for mask:DebrisPlus
+    Select image for mask:None
+    Invert the mask?:Yes
+
+MaskImage:[module_num:35|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:PresentInAllCycles
+    Name the output image:PresentInAllCyclesNoDebris
+    Use objects or an image as a mask?:Objects
+    Select object for mask:DebrisPlus
+    Select image for mask:None
+    Invert the mask?:Yes
+
+MaskImage:[module_num:36|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedDAPI
+    Name the output image:MaskedDAPIx2
+    Use objects or an image as a mask?:Image
+    Select object for mask:DebrisPlus
+    Select image for mask:PresentInAllCycles
+    Invert the mask?:No
+
+IdentifyPrimaryObjects:[module_num:37|svn_version:'Unknown'|variable_revision_number:15|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedDAPIx2
+    Name the primary objects to be identified:Nuclei
+    Typical diameter of objects, in pixel units (Min,Max):15,45
+    Discard objects outside the diameter range?:Yes
+    Discard objects touching the border of the image?:No
+    Method to distinguish clumped objects:Intensity
+    Method to draw dividing lines between clumped objects:Intensity
+    Size of smoothing filter:15
+    Suppress local maxima that are closer than this minimum allowed distance:15
+    Speed up by using lower-resolution image to find local maxima?:Yes
+    Fill holes in identified objects?:After both thresholding and declumping
+    Automatically calculate size of smoothing filter for declumping?:No
+    Automatically calculate minimum allowed distance between local maxima?:No
+    Handling of objects if excessive number of objects identified:Continue
+    Maximum number of objects:500
+    Use advanced settings?:Yes
+    Threshold setting version:12
+    Threshold strategy:Global
+    Thresholding method:Minimum Cross-Entropy
+    Threshold smoothing scale:1.3488
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,.05
+    Manual threshold:0.0
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+ExpandOrShrinkObjects:[module_num:38|svn_version:'Unknown'|variable_revision_number:2|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input objects:Nuclei
+    Name the output objects:NucleiPlusThree
+    Select the operation:Expand objects by a specified number of pixels
+    Number of pixels by which to expand or shrink:3
+    Fill holes in objects so that all objects shrink to a single point?:No
+    Expand or shrink measurement:None
+
+EnhanceOrSuppressFeatures:[module_num:39|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle01_A488
+    Name the output image:EnhanceCycle01_A488
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:40|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle01_A568
+    Name the output image:EnhanceCycle01_A568
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:41|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle01_A647
+    Name the output image:EnhanceCycle01_A647
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:42|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle02_A488_Aligned
+    Name the output image:EnhanceCycle02_A488
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:43|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle02_A568_Aligned
+    Name the output image:EnhanceCycle02_A568
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:44|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle02_A647_Aligned
+    Name the output image:EnhanceCycle02_A647
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:45|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle03_A488_Aligned
+    Name the output image:EnhanceCycle03_A488
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:46|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle03_A568_Aligned
+    Name the output image:EnhanceCycle03_A568
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:47|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle03_A647_Aligned
+    Name the output image:EnhanceCycle03_A647
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:48|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle04_A488_Aligned
+    Name the output image:EnhanceCycle04_A488
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:49|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle04_A568_Aligned
+    Name the output image:EnhanceCycle04_A568
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:50|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle04_A647_Aligned
+    Name the output image:EnhanceCycle04_A647
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:51|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle05_A488_Aligned
+    Name the output image:EnhanceCycle05_A488
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:52|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle05_A568_Aligned
+    Name the output image:EnhanceCycle05_A568
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:53|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle05_A647_Aligned
+    Name the output image:EnhanceCycle05_A647
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:54|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle06_A488_Aligned
+    Name the output image:EnhanceCycle06_A488
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:55|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle06_A568_Aligned
+    Name the output image:EnhanceCycle06_A568
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:56|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle06_A647_Aligned
+    Name the output image:EnhanceCycle06_A647
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:57|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle07_A488_Aligned
+    Name the output image:EnhanceCycle07_A488
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:58|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle07_A568_Aligned
+    Name the output image:EnhanceCycle07_A568
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:59|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle07_A647_Aligned
+    Name the output image:EnhanceCycle07_A647
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:60|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle08_A488_Aligned
+    Name the output image:EnhanceCycle08_A488
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:61|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle08_A568_Aligned
+    Name the output image:EnhanceCycle08_A568
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:62|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle08_A647_Aligned
+    Name the output image:EnhanceCycle08_A647
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:63|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle09_A488_Aligned
+    Name the output image:EnhanceCycle09_A488
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:64|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle09_A568_Aligned
+    Name the output image:EnhanceCycle09_A568
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:65|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle09_A647_Aligned
+    Name the output image:EnhanceCycle09_A647
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:66|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle10_A488_Aligned
+    Name the output image:EnhanceCycle10_A488
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:67|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle10_A568_Aligned
+    Name the output image:EnhanceCycle10_A568
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:68|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle10_A647_Aligned
+    Name the output image:EnhanceCycle10_A647
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:69|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle11_A488_Aligned
+    Name the output image:EnhanceCycle11_A488
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:70|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle11_A568_Aligned
+    Name the output image:EnhanceCycle11_A568
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:71|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle11_A647_Aligned
+    Name the output image:EnhanceCycle11_A647
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:72|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle12_A488_Aligned
+    Name the output image:EnhanceCycle12_A488
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:73|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle12_A568_Aligned
+    Name the output image:EnhanceCycle12_A568
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+EnhanceOrSuppressFeatures:[module_num:74|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle12_A647_Aligned
+    Name the output image:EnhanceCycle12_A647
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Fast
+    Rescale result image:No
+
+MaskImage:[module_num:75|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle01_A488
+    Name the output image:MaskedCycle01_A488
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:76|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle01_A568
+    Name the output image:MaskedCycle01_A568
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:77|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle01_A647
+    Name the output image:MaskedCycle01_A647
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:78|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle02_A488
+    Name the output image:MaskedCycle02_A488
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:79|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle02_A568
+    Name the output image:MaskedCycle02_A568
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:80|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle02_A647
+    Name the output image:MaskedCycle02_A647
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:81|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle03_A488
+    Name the output image:MaskedCycle03_A488
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:82|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle03_A568
+    Name the output image:MaskedCycle03_A568
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:83|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle03_A647
+    Name the output image:MaskedCycle03_A647
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:84|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle04_A488
+    Name the output image:MaskedCycle04_A488
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:85|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle04_A568
+    Name the output image:MaskedCycle04_A568
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:86|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle04_A647
+    Name the output image:MaskedCycle04_A647
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:87|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle05_A488
+    Name the output image:MaskedCycle05_A488
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:88|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle05_A568
+    Name the output image:MaskedCycle05_A568
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:89|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle05_A647
+    Name the output image:MaskedCycle05_A647
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:90|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle06_A488
+    Name the output image:MaskedCycle06_A488
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:91|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle06_A568
+    Name the output image:MaskedCycle06_A568
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:92|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle06_A647
+    Name the output image:MaskedCycle06_A647
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:93|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle07_A488
+    Name the output image:MaskedCycle07_A488
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:94|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle07_A568
+    Name the output image:MaskedCycle07_A568
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:95|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle07_A647
+    Name the output image:MaskedCycle07_A647
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:96|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle08_A488
+    Name the output image:MaskedCycle08_A488
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:97|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle08_A568
+    Name the output image:MaskedCycle08_A568
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:98|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle08_A647
+    Name the output image:MaskedCycle08_A647
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:99|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle09_A488
+    Name the output image:MaskedCycle09_A488
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:100|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle09_A568
+    Name the output image:MaskedCycle09_A568
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:101|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle09_A647
+    Name the output image:MaskedCycle09_A647
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:102|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle10_A488
+    Name the output image:MaskedCycle10_A488
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:103|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle10_A568
+    Name the output image:MaskedCycle10_A568
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:104|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle10_A647
+    Name the output image:MaskedCycle10_A647
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:105|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle11_A488
+    Name the output image:MaskedCycle11_A488
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:106|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle11_A568
+    Name the output image:MaskedCycle11_A568
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:107|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle11_A647
+    Name the output image:MaskedCycle11_A647
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:108|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle12_A488
+    Name the output image:MaskedCycle12_A488
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:109|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle12_A568
+    Name the output image:MaskedCycle12_A568
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+MaskImage:[module_num:110|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceCycle12_A647
+    Name the output image:MaskedCycle12_A647
+    Use objects or an image as a mask?:Image
+    Select object for mask:None
+    Select image for mask:PresentInAllCyclesNoDebris
+    Invert the mask?:No
+
+Threshold:[module_num:111|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle01_A568
+    Name the output image:Threshold_568_Cycle01
+    Threshold strategy:Global
+    Thresholding method:Robust Background
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.006,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:112|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle01_A647
+    Name the output image:Threshold_647_Cycle01
+    Threshold strategy:Global
+    Thresholding method:Robust Background
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.005,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:16
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:113|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle01_A488
+    Name the output image:Threshold_488_Cycle01
+    Threshold strategy:Global
+    Thresholding method:Robust Background
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.002,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:12
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:114|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle06_A568
+    Name the output image:Threshold_568_Cycle06
+    Threshold strategy:Global
+    Thresholding method:Robust Background
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.006,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_568_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:115|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle06_A647
+    Name the output image:Threshold_647_Cycle06
+    Threshold strategy:Global
+    Thresholding method:Robust Background
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.005,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_647_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:16
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:116|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle06_A488
+    Name the output image:Threshold_488_Cycle06
+    Threshold strategy:Global
+    Thresholding method:Robust Background
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0025,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_488_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:12
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:117|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle02_A568
+    Name the output image:Threshold_568_Cycle02
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_568_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:118|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle02_A647
+    Name the output image:Threshold_647_Cycle02
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_647_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:119|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle02_A488
+    Name the output image:Threshold_488_Cycle02
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_488_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:120|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle03_A568
+    Name the output image:Threshold_568_Cycle03
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_568_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:121|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle03_A647
+    Name the output image:Threshold_647_Cycle03
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_647_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:122|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle03_A488
+    Name the output image:Threshold_488_Cycle03
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_488_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:123|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle04_A568
+    Name the output image:Threshold_568_Cycle04
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_568_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:124|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle04_A647
+    Name the output image:Threshold_647_Cycle04
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_647_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:125|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle04_A488
+    Name the output image:Threshold_488_Cycle04
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_488_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:126|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle05_A568
+    Name the output image:Threshold_568_Cycle05
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_568_Cycle01
+    Two-class or three-class thresholding?:Three classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Background
+    Size of adaptive window:100
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Measurement
+
+Threshold:[module_num:127|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle05_A647
+    Name the output image:Threshold_647_Cycle05
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_647_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:128|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle05_A488
+    Name the output image:Threshold_488_Cycle05
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_488_Cycle01
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:129|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle07_A568
+    Name the output image:Threshold_568_Cycle07
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_568_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:130|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle07_A647
+    Name the output image:Threshold_647_Cycle07
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_647_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:131|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle07_A488
+    Name the output image:Threshold_488_Cycle07
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_488_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:24
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:132|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle08_A568
+    Name the output image:Threshold_568_Cycle08
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.000,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_568_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:12
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:133|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle08_A647
+    Name the output image:Threshold_647_Cycle08
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.000,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_647_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:8
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:134|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle08_A488
+    Name the output image:Threshold_488_Cycle08
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.00,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_488_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:6
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:135|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle09_A568
+    Name the output image:Threshold_568_Cycle09
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_568_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:10
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:136|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle09_A647
+    Name the output image:Threshold_647_Cycle09
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_647_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:10
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:137|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle09_A488
+    Name the output image:Threshold_488_Cycle09
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_488_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:10
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:138|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle10_A568
+    Name the output image:Threshold_568_Cycle10
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_568_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:10
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:139|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle10_A647
+    Name the output image:Threshold_647_Cycle10
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_647_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:10
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:140|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle10_A488
+    Name the output image:Threshold_488_Cycle10
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_488_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:10
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:141|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle11_A568
+    Name the output image:Threshold_568_Cycle11
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_568_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:10
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:142|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle11_A647
+    Name the output image:Threshold_647_Cycle11
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_647_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:10
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:143|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle11_A488
+    Name the output image:Threshold_488_Cycle11
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_488_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:10
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:144|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle12_A568
+    Name the output image:Threshold_568_Cycle12
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_568_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:10
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:145|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle12_A647
+    Name the output image:Threshold_647_Cycle12
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_647_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:10
+    Thresholding method:Minimum Cross-Entropy
+
+Threshold:[module_num:146|svn_version:'Unknown'|variable_revision_number:12|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:MaskedCycle12_A488
+    Name the output image:Threshold_488_Cycle12
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:Threshold_FinalThreshold_Threshold_488_Cycle06
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:10
+    Thresholding method:Minimum Cross-Entropy
+
+ImageMath:[module_num:147|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Operation:Add
+    Raise the power of the result by:1.0
+    Multiply the result by:1.0
+    Add to result:0.0
+    Set values less than 0 equal to 0?:Yes
+    Set values greater than 1 equal to 1?:Yes
+    Replace invalid values with 0?:Yes
+    Ignore the image masks?:No
+    Name the output image:ImageAfterMath
+    Image or measurement?:Image
+    Select the first image:Threshold_488_Cycle01
+    Multiply the first image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the second image:Threshold_488_Cycle02
+    Multiply the second image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the third image:Threshold_488_Cycle03
+    Multiply the third image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the fourth image:Threshold_488_Cycle04
+    Multiply the fourth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the fifth image:Threshold_488_Cycle05
+    Multiply the fifth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the sixth image:Threshold_488_Cycle06
+    Multiply the sixth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the seventh image:Threshold_488_Cycle07
+    Multiply the seventh image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the eighth image:Threshold_488_Cycle08
+    Multiply the eighth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the ninth image:Threshold_488_Cycle09
+    Multiply the ninth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the tenth image:Threshold_488_Cycle10
+    Multiply the tenth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the eleventh image:Threshold_488_Cycle11
+    Multiply the eleventh image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the twelfth image:Threshold_488_Cycle12
+    Multiply the twelfth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the thirteenth image:Threshold_568_Cycle01
+    Multiply the thirteenth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the fourteenth image:Threshold_568_Cycle02
+    Multiply the fourteenth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the fifteenth image:Threshold_568_Cycle03
+    Multiply the fifteenth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the sixteenth image:Threshold_568_Cycle04
+    Multiply the sixteenth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the seventeenth image:Threshold_568_Cycle05
+    Multiply the seventeenth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the eighteenth image:Threshold_568_Cycle06
+    Multiply the eighteenth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the nineteenth image:Threshold_568_Cycle07
+    Multiply the nineteenth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the twentieth image:Threshold_568_Cycle08
+    Multiply the twentieth image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the twenty-first image:Threshold_568_Cycle09
+    Multiply the twenty-first image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the twenty-second image:Threshold_568_Cycle10
+    Multiply the twenty-second image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the twenty-third image:Threshold_568_Cycle11
+    Multiply the twenty-third image by:0.041
+    Measurement:
+    Image or measurement?:Image
+    Select the twenty-fourth image:Threshold_568_Cycle12
+    Multiply the twenty-fourth image by:0.041
+    Measurement:
+
+IdentifyPrimaryObjects:[module_num:148|svn_version:'Unknown'|variable_revision_number:15|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:ImageAfterMath
+    Name the primary objects to be identified:PreFoci
+    Typical diameter of objects, in pixel units (Min,Max):4,20
+    Discard objects outside the diameter range?:Yes
+    Discard objects touching the border of the image?:Yes
+    Method to distinguish clumped objects:Intensity
+    Method to draw dividing lines between clumped objects:Intensity
+    Size of smoothing filter:10
+    Suppress local maxima that are closer than this minimum allowed distance:7.0
+    Speed up by using lower-resolution image to find local maxima?:Yes
+    Fill holes in identified objects?:After both thresholding and declumping
+    Automatically calculate size of smoothing filter for declumping?:Yes
+    Automatically calculate minimum allowed distance between local maxima?:Yes
+    Handling of objects if excessive number of objects identified:Continue
+    Maximum number of objects:500
+    Use advanced settings?:Yes
+    Threshold setting version:12
+    Threshold strategy:Global
+    Thresholding method:Manual
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.0,1.0
+    Manual threshold:0.2
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+MeasureObjectIntensity:[module_num:149|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select images to measure:ImageAfterMath
+    Select objects to measure:PreFoci
+
+FilterObjects:[module_num:150|svn_version:'Unknown'|variable_revision_number:10|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the objects to filter:PreFoci
+    Name the output objects:Foci
+    Select the filtering mode:Measurements
+    Select the filtering method:Limits
+    Select the objects that contain the filtered objects:None
+    Select the location of the rules or classifier file:Elsewhere...|
+    Rules or classifier file name:rules.txt
+    Class number:1
+    Measurement count:1
+    Additional object count:0
+    Assign overlapping child to:Both parents
+    Keep removed objects as a separate set?:No
+    Name the objects removed by the filter:RemovedObjects
+    Select the measurement to filter by:Intensity_MeanIntensity_ImageAfterMath
+    Filter using a minimum measurement value?:No
+    Minimum value:0.0
+    Filter using a maximum measurement value?:Yes
+    Maximum value:0.6
+    Allow fuzzy feature matching?:No
+
+MeasureObjectIntensity:[module_num:151|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select images to measure:ImageAfterMath, Threshold_488_Cycle01, Threshold_488_Cycle02, Threshold_488_Cycle03, Threshold_488_Cycle04, Threshold_488_Cycle05, Threshold_488_Cycle06, Threshold_488_Cycle07, Threshold_488_Cycle08, Threshold_488_Cycle09, Threshold_488_Cycle10, Threshold_488_Cycle11, Threshold_488_Cycle12, Threshold_568_Cycle01, Threshold_568_Cycle02, Threshold_568_Cycle03, Threshold_568_Cycle04, Threshold_568_Cycle05, Threshold_568_Cycle06, Threshold_568_Cycle07, Threshold_568_Cycle08, Threshold_568_Cycle09, Threshold_568_Cycle10, Threshold_568_Cycle11, Threshold_568_Cycle12, Threshold_647_Cycle01, Threshold_647_Cycle02, Threshold_647_Cycle03, Threshold_647_Cycle04, Threshold_647_Cycle05, Threshold_647_Cycle06, Threshold_647_Cycle07, Threshold_647_Cycle08, Threshold_647_Cycle09, Threshold_647_Cycle10, Threshold_647_Cycle11, Threshold_647_Cycle12
+    Select objects to measure:Foci, Nuclei
+
+CallBarcodes:[module_num:152|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:['# G empty', '# T 568', '# C 488+568', '# A 488+647']|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Number of cycles:12
+    Input object name:Foci
+    Select one of the measures from Cycle 1 to use for calling:AreaShape_Area
+    Input data file location:Default Input Folder|/Volumes/T7/PotC/workspace/metadata
+    Name of the file:potc_CRISPRi_pilot_library_design_v2.csv
+    Select the column containing barcodes to match against:barcode_to_call
+    Select the column containing gene/transcript barcode names:target_symbol
+    Retain an image of the barcodes color coded by match?:No
+    Enter the called barcode image name:None
+    Retain an image of the barcodes color coded by score match?:No
+    Enter the barcode score image name:None
+    Do you have an empty vector barcode you would like to add to the barcode list?:No
+    What is the empty vector sequence?:AAAAAAAAAAAAAAA
+    What kind of encoding is used here?:Exponentially Multiplexed (SBS/ISS only)
+    Do you want to match to an external library of barcodes?:Yes
+    Base we are currently calling:A
+    Select the first measurement indicating that A is encoded:Intensity_UpperQuartileIntensity_Threshold_488_Cycle01
+    Does a positive value here mean the base SHOULD be called A?:Yes
+    Base we are currently calling:A
+    Select the next measurement indicating that A is encoded:Intensity_UpperQuartileIntensity_Threshold_647_Cycle01
+    Does a positive value here mean the base SHOULD be called A?:Yes
+    Base we are currently calling:A
+    Select the next measurement indicating that A is encoded:Intensity_UpperQuartileIntensity_Threshold_568_Cycle01
+    Does a positive value here mean the base SHOULD be called A?:No
+    Base we are currently calling:C
+    Select the first measurement indicating that C is encoded:Intensity_UpperQuartileIntensity_Threshold_488_Cycle01
+    Does a positive value here mean the base SHOULD be called C?:Yes
+    Base we are currently calling:C
+    Select the next measurement indicating that C is encoded:Intensity_UpperQuartileIntensity_Threshold_568_Cycle01
+    Does a positive value here mean the base SHOULD be called C?:Yes
+    Base we are currently calling:C
+    Select the next measurement indicating that C is encoded:Intensity_UpperQuartileIntensity_Threshold_647_Cycle01
+    Does a positive value here mean the base SHOULD be called C?:No
+    Base we are currently calling:G
+    Select the first measurement indicating that G is encoded:Intensity_UpperQuartileIntensity_Threshold_488_Cycle01
+    Does a positive value here mean the base SHOULD be called G?:No
+    Base we are currently calling:G
+    Select the next measurement indicating that G is encoded:Intensity_UpperQuartileIntensity_Threshold_568_Cycle01
+    Does a positive value here mean the base SHOULD be called G?:No
+    Base we are currently calling:G
+    Select the next measurement indicating that G is encoded:Intensity_UpperQuartileIntensity_Threshold_647_Cycle01
+    Does a positive value here mean the base SHOULD be called G?:No
+    Base we are currently calling:T
+    Select the first measurement indicating that T is encoded:Intensity_UpperQuartileIntensity_Threshold_488_Cycle01
+    Does a positive value here mean the base SHOULD be called T?:No
+    Base we are currently calling:T
+    Select the next measurement indicating that T is encoded:Intensity_UpperQuartileIntensity_Threshold_568_Cycle01
+    Does a positive value here mean the base SHOULD be called T?:Yes
+    Base we are currently calling:T
+    Select the next measurement indicating that T is encoded:Intensity_UpperQuartileIntensity_Threshold_647_Cycle01
+    Does a positive value here mean the base SHOULD be called T?:No
+    Minimum value to be considered positive in a channel:1
+
+MeasureObjectSizeShape:[module_num:153|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select object sets to measure:Foci
+    Calculate the Zernike features?:No
+    Calculate the advanced features?:No
+
+MaskObjects:[module_num:154|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select objects to be masked:Nuclei
+    Name the masked objects:Nucleoplasms
+    Mask using a region defined by other objects or by binary image?:Objects
+    Select the masking object:Foci
+    Select the masking image:None
+    Handling of objects that are partially masked:Keep overlapping region
+    Fraction of object that must overlap:0.5
+    Numbering of resulting objects:Renumber
+    Invert the mask?:Yes
+
+MeasureObjectIntensity:[module_num:155|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select images to measure:Cycle01_A488, Cycle01_A568, Cycle01_A647, Cycle02_A488_Aligned, Cycle02_A568_Aligned, Cycle02_A647_Aligned, Cycle03_A488_Aligned, Cycle03_A568_Aligned, Cycle03_A647_Aligned, Cycle04_A488_Aligned, Cycle04_A568_Aligned, Cycle04_A647_Aligned, Cycle05_A488_Aligned, Cycle05_A568_Aligned, Cycle05_A647_Aligned, Cycle06_A488_Aligned, Cycle06_A568_Aligned, Cycle06_A647_Aligned, Cycle07_A488_Aligned, Cycle07_A568_Aligned, Cycle07_A647_Aligned, Cycle08_A488_Aligned, Cycle08_A568_Aligned, Cycle08_A647_Aligned, Cycle09_A488_Aligned, Cycle09_A568_Aligned, Cycle09_A647_Aligned, Cycle10_A488_Aligned, Cycle10_A568_Aligned, Cycle10_A647_Aligned, Cycle11_A488_Aligned, Cycle11_A568_Aligned, Cycle11_A647_Aligned, Cycle12_A488_Aligned, Cycle12_A568_Aligned, Cycle12_A647_Aligned
+    Select objects to measure:Nucleoplasms
+
+ConvertObjectsToImage:[module_num:156|svn_version:'Unknown'|variable_revision_number:1|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input objects:Foci
+    Name the output image:FociImage
+    Select the color format:uint16
+    Select the colormap:Default
+
+SaveImages:[module_num:157|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:FociImage
+    Select method for constructing file names:Single name
+    Select image name for file prefix:None
+    Enter single file name:\g<Plate>_\g<Well>_\g<Site>_FociObjects
+    Number of digits:4
+    Append a suffix to the image file name?:No
+    Text to append to the image name:
+    Saved file format:tiff
+    Output file location:Default Output Folder|
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:Yes
+
+ExportToSpreadsheet:[module_num:158|svn_version:'Unknown'|variable_revision_number:13|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the column delimiter:Comma (",")
+    Add image metadata columns to your object data file?:Yes
+    Add image file and folder names to your object data file?:No
+    Select the measurements to export:No
+    Calculate the per-image mean values for object measurements?:No
+    Calculate the per-image median values for object measurements?:No
+    Calculate the per-image standard deviation values for object measurements?:No
+    Output file location:Default Output Folder|
+    Create a GenePattern GCT file?:No
+    Select source of sample row name:Metadata
+    Select the image to use as the identifier:None
+    Select the metadata to use as the identifier:None
+    Export all measurement types?:Yes
+    Press button to select measurements:
+    Representation of Nan/Inf:NaN
+    Add a prefix to file names?:Yes
+    Filename prefix:BarcodePreprocessing_
+    Overwrite existing files without warning?:No
+    Data to export:Do not use
+    Combine these object measurements with those of the previous object?:No
+    File name:DATA.csv
+    Use the object name for the file name?:Yes
+
+FlagImage:[module_num:159|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:['TODO add in flag based on site and output meanofstdev to look for jitter']|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
+    Hidden:1
+    Hidden:1
+    Name the flag's category:Metadata
+    Name the flag:QCFlag
+    How should measurements be linked?:Flag if any fail
+    Skip image set if flagged?:No
+    Flag is based on:Whole-image measurement
+    Select the object to be used for flagging:None
+    Which measurement?:None
+    Flag images based on low values?:Yes
+    Minimum value:0.0
+    Flag images based on high values?:Yes
+    Maximum value:1.0
+    Rules file location:Elsewhere...|
+    Rules file name:rules.txt
+    Class number:
+    Allow fuzzy feature matching?:No
+    Ignore flag skips on last cycle?:No

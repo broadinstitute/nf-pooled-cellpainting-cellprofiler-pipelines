@@ -1,0 +1,1185 @@
+CellProfiler Pipeline: http://www.cellprofiler.org
+Version:5
+DateRevision:426
+GitHash:
+ModuleCount:53
+HasImagePlaneDetails:False
+
+LoadData:[module_num:1|svn_version:'Unknown'|variable_revision_number:6|show_window:True|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Input data file location:Default Input Folder|
+    Name of the file:None
+    Load images based on this data?:Yes
+    Base image location:None|
+    Process just a range of rows?:No
+    Rows to process:1,100000
+    Group images by metadata?:Yes
+    Select metadata tags for grouping:Plate,Well,Site
+    Rescale intensities?:Yes
+
+CorrectIlluminationApply:[module_num:2|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle01_OrigDAPI
+    Name the output image:Cycle01_DAPI
+    Select the illumination function:Cycle01_IllumDAPI
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle02_OrigDAPI
+    Name the output image:Cycle02_DAPI
+    Select the illumination function:Cycle02_IllumDAPI
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle03_OrigDAPI
+    Name the output image:Cycle03_DAPI
+    Select the illumination function:Cycle03_IllumDAPI
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle04_OrigDAPI
+    Name the output image:Cycle04_DAPI
+    Select the illumination function:Cycle04_IllumDAPI
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle05_OrigDAPI
+    Name the output image:Cycle05_DAPI
+    Select the illumination function:Cycle05_IllumDAPI
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle06_OrigDAPI
+    Name the output image:Cycle06_DAPI
+    Select the illumination function:Cycle06_IllumDAPI
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle07_OrigDAPI
+    Name the output image:Cycle07_DAPI
+    Select the illumination function:Cycle07_IllumDAPI
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle08_OrigDAPI
+    Name the output image:Cycle08_DAPI
+    Select the illumination function:Cycle08_IllumDAPI
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle09_OrigDAPI
+    Name the output image:Cycle09_DAPI
+    Select the illumination function:Cycle09_IllumDAPI
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle10_OrigDAPI
+    Name the output image:Cycle10_DAPI
+    Select the illumination function:Cycle10_IllumDAPI
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle11_OrigDAPI
+    Name the output image:Cycle11_DAPI
+    Select the illumination function:Cycle11_IllumDAPI
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle12_OrigDAPI
+    Name the output image:Cycle12_DAPI
+    Select the illumination function:Cycle12_IllumDAPI
+    Select how the illumination function is applied:Divide
+    Set output image values less than 0 equal to 0?:Yes
+    Set output image values greater than 1 equal to 1?:Yes
+
+CorrectIlluminationApply:[module_num:3|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle01_OrigA488
+    Name the output image:Cycle01_A488
+    Select the illumination function:Cycle01_IllumA488
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle02_OrigA488
+    Name the output image:Cycle02_A488
+    Select the illumination function:Cycle02_IllumA488
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle03_OrigA488
+    Name the output image:Cycle03_A488
+    Select the illumination function:Cycle03_IllumA488
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle04_OrigA488
+    Name the output image:Cycle04_A488
+    Select the illumination function:Cycle04_IllumA488
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle05_OrigA488
+    Name the output image:Cycle05_A488
+    Select the illumination function:Cycle05_IllumA488
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle06_OrigA488
+    Name the output image:Cycle06_A488
+    Select the illumination function:Cycle06_IllumA488
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle07_OrigA488
+    Name the output image:Cycle07_A488
+    Select the illumination function:Cycle07_IllumA488
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle08_OrigA488
+    Name the output image:Cycle08_A488
+    Select the illumination function:Cycle08_IllumA488
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle09_OrigA488
+    Name the output image:Cycle09_A488
+    Select the illumination function:Cycle09_IllumA488
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle10_OrigA488
+    Name the output image:Cycle10_A488
+    Select the illumination function:Cycle10_IllumA488
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle11_OrigA488
+    Name the output image:Cycle11_A488
+    Select the illumination function:Cycle11_IllumA488
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle12_OrigA488
+    Name the output image:Cycle12_A488
+    Select the illumination function:Cycle12_IllumA488
+    Select how the illumination function is applied:Divide
+    Set output image values less than 0 equal to 0?:Yes
+    Set output image values greater than 1 equal to 1?:Yes
+
+CorrectIlluminationApply:[module_num:4|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle01_OrigA568
+    Name the output image:Cycle01_A568
+    Select the illumination function:Cycle01_IllumA568
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle02_OrigA568
+    Name the output image:Cycle02_A568
+    Select the illumination function:Cycle02_IllumA568
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle03_OrigA568
+    Name the output image:Cycle03_A568
+    Select the illumination function:Cycle03_IllumA568
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle04_OrigA568
+    Name the output image:Cycle04_A568
+    Select the illumination function:Cycle04_IllumA568
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle05_OrigA568
+    Name the output image:Cycle05_A568
+    Select the illumination function:Cycle05_IllumA568
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle06_OrigA568
+    Name the output image:Cycle06_A568
+    Select the illumination function:Cycle06_IllumA568
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle07_OrigA568
+    Name the output image:Cycle07_A568
+    Select the illumination function:Cycle07_IllumA568
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle08_OrigA568
+    Name the output image:Cycle08_A568
+    Select the illumination function:Cycle08_IllumA568
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle09_OrigA568
+    Name the output image:Cycle09_A568
+    Select the illumination function:Cycle09_IllumA568
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle10_OrigA568
+    Name the output image:Cycle10_A568
+    Select the illumination function:Cycle10_IllumA568
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle11_OrigA568
+    Name the output image:Cycle11_A568
+    Select the illumination function:Cycle11_IllumA568
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle12_OrigA568
+    Name the output image:Cycle12_A568
+    Select the illumination function:Cycle12_IllumA568
+    Select how the illumination function is applied:Divide
+    Set output image values less than 0 equal to 0?:Yes
+    Set output image values greater than 1 equal to 1?:Yes
+
+CorrectIlluminationApply:[module_num:5|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Cycle01_OrigA647
+    Name the output image:Cycle01_A647
+    Select the illumination function:Cycle01_IllumA647
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle02_OrigA647
+    Name the output image:Cycle02_A647
+    Select the illumination function:Cycle02_IllumA647
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle03_OrigA647
+    Name the output image:Cycle03_A647
+    Select the illumination function:Cycle03_IllumA647
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle04_OrigA647
+    Name the output image:Cycle04_A647
+    Select the illumination function:Cycle04_IllumA647
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle05_OrigA647
+    Name the output image:Cycle05_A647
+    Select the illumination function:Cycle05_IllumA647
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle06_OrigA647
+    Name the output image:Cycle06_A647
+    Select the illumination function:Cycle06_IllumA647
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle07_OrigA647
+    Name the output image:Cycle07_A647
+    Select the illumination function:Cycle07_IllumA647
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle08_OrigA647
+    Name the output image:Cycle08_A647
+    Select the illumination function:Cycle08_IllumA647
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle09_OrigA647
+    Name the output image:Cycle09_A647
+    Select the illumination function:Cycle09_IllumA647
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle10_OrigA647
+    Name the output image:Cycle10_A647
+    Select the illumination function:Cycle10_IllumA647
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle11_OrigA647
+    Name the output image:Cycle11_A647
+    Select the illumination function:Cycle11_IllumA647
+    Select how the illumination function is applied:Divide
+    Select the input image:Cycle12_OrigA647
+    Name the output image:Cycle12_A647
+    Select the illumination function:Cycle12_IllumA647
+    Select how the illumination function is applied:Divide
+    Set output image values less than 0 equal to 0?:Yes
+    Set output image values greater than 1 equal to 1?:Yes
+
+SaveImages:[module_num:6|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle01_DAPI
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle01_DAPI
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:7|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle02_DAPI
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle02_DAPI
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:8|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle03_DAPI
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle03_DAPI
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:9|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle04_DAPI
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle04_DAPI
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:10|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle05_DAPI
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle05_DAPI
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:11|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle06_DAPI
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle06_DAPI
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:12|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle07_DAPI
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle07_DAPI
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:13|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle08_DAPI
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle08_DAPI
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:14|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle09_DAPI
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle09_DAPI
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:15|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle10_DAPI
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle10_DAPI
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:16|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle11_DAPI
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle11_DAPI
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:17|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle12_DAPI
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle12_DAPI
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:18|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle01_A488
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A488
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle01_A488
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:19|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle01_A568
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A568
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle01_A568
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_C
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:20|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle01_A647
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle01_A647
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle01_A647
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle01_G
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:21|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle02_A488
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle02_A488
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle02_A488
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle02_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:22|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle02_A568
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle02_A568
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle02_A568
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle02_C
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:23|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle02_A647
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle02_A647
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle02_A647
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle02_G
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:24|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle03_A488
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle03_A488
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle03_A488
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle03_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:25|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle03_A568
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle03_A568
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle03_A568
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle03_C
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:26|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle03_A647
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle03_A647
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle03_A647
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle03_G
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:27|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle04_A488
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle04_A488
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle04_A488
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle04_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:28|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle04_A568
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle04_A568
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle04_A568
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle04_C
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:29|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle04_A647
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle04_A647
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle04_A647
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle04_G
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:30|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle05_A488
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle05_A488
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle05_A488
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle05_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:31|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle05_A568
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle05_A568
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle05_A568
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle05_C
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:32|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle05_A647
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle05_A647
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle05_A647
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle05_G
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:33|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle06_A488
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle06_A488
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle06_A488
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle06_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:34|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle06_A568
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle06_A568
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle06_A568
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle06_C
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:35|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle06_A647
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle06_A647
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle06_A647
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle06_G
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:36|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle07_A488
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle07_A488
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle07_A488
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle07_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:37|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle07_A568
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle07_A568
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle07_A568
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle07_C
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:38|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle07_A647
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle07_A647
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle07_A647
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle07_G
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:39|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle08_A488
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle08_A488
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle08_A488
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle08_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:40|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle08_A568
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle08_A568
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle08_A568
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle08_C
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:41|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle08_A647
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle08_A647
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle08_A647
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle08_G
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:42|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle09_A488
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle09_A488
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle09_A488
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle09_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:43|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle09_A568
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle09_A568
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle09_A568
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle09_C
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:44|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle09_A647
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle09_A647
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle09_A647
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle09_G
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:45|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle10_A488
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle10_A488
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle10_A488
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle10_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:46|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle10_A568
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle10_A568
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle10_A568
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle10_C
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:47|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle10_A647
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle10_A647
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle10_A647
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle10_G
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:48|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle11_A488
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle11_A488
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle11_A488
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle11_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:49|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle11_A568
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle11_A568
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle11_A568
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle11_C
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:50|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle11_A647
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle11_A647
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle11_A647
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle11_G
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:51|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle12_A488
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle12_A488
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle12_A488
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle12_A
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:52|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle12_A568
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle12_A568
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle12_A568
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle12_C
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:53|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:Cycle12_A647
+    Select method for constructing file names:Single name
+    Select image name for file prefix:Cycle12_A647
+    Enter single file name:Plate_\g<Plate>_Well_\g<Well>_Site_\g<Site>_Cycle12_A647
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:__Cyle12_G
+    Saved file format:tiff
+    Output file location:Default Output Folder|Cycle01
+    Image bit depth:16-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
